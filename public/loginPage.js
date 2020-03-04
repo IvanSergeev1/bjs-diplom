@@ -1,6 +1,6 @@
 'use strict' ;
 
-const useForm = new useForm();
+const useForm = new UserForm();
 useForm.loginFormCallback = function (data) {
    ApiConnector.login(data, function (response) {
        if (response.success === true) {
