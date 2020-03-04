@@ -11,7 +11,7 @@ userForm.loginFormCallback = function (data) {
        console.log(response);
        });
   };
-  useForm.registerFormCallback = function (data) {
+  userForm.registerFormCallback = function (data) {
      ApiConnector.register(data, function (response) {
         if(response.success === true) {
             location.reload();
